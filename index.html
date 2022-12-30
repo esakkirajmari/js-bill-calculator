@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bill calculator</title>
+    <style>
+        .row{
+            text-align: center;
+            padding: 20px;
+        }
+        .row-1{
+            padding: 20px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .row-2{
+            padding: 20px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .row-3{
+            padding: 20px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .row-4{
+            padding: 20px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .button button{
+            font-size: 30px;
+            color:white;
+            background-color:gray;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <div class="row">
+        <div class="row-1">
+            <label for="Iname">Enter Your Amount:</label>
+            <input type="text" id="billAmount" placeholder="Enter Amount"><br>
+        </div>
+        <div class="row-2">
+            <label for="Iname">Enter Your Tip:</label>
+            <input type="text" id="tippercentage" placeholder="Enter Tip"><br>
+        </div>
+        <div class="row-3">
+            <label for="Iname">Enter Your Tip Amount:</label>
+            <input type="text" id="tipAmount" placeholder="Tip Amount" disabled><br>
+        </div>
+        <div class="row-4">
+            <label for="Iname">Enter Your Total Amount:</label>
+            <input type="text" id="totalAmount" placeholder="Total Amount" disabled><br>
+        </div>
+        <div class="button">
+            <button id="btn" onclick="myfunction()">submit</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    </fieldset>
+</body>
+</html>
